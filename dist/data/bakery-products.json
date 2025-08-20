@@ -6,7 +6,7 @@
       "description": "Fresh-baked cinnamon rolls with cream cheese frosting, made from scratch daily",
       "basePrice": 4.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/8B4513/FFF?text=Cinnamon+Rolls",
+      "image": "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=600",
       "availableSizes": [
         "Single",
         "Half Dozen",
@@ -32,7 +32,7 @@
       "description": "Jumbo blueberry muffins bursting with fresh Pacific Northwest blueberries",
       "basePrice": 3.99,
       "category": "muffins",
-      "image": "https://placehold.co/600x400/4169E1/FFF?text=Blueberry+Muffins",
+      "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=600",
       "availableSizes": [
         "Single",
         "4-Pack",
@@ -58,7 +58,7 @@
       "description": "Decadent cookies with dark, milk, and white chocolate chips",
       "basePrice": 2.99,
       "category": "cookies",
-      "image": "https://placehold.co/600x400/654321/FFF?text=Chocolate+Cookies",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600",
       "availableSizes": [
         "Single",
         "Half Dozen",
@@ -84,7 +84,7 @@
       "description": "Classic French pastries filled with vanilla custard and topped with chocolate glaze",
       "basePrice": 5.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/D2691E/FFF?text=Eclairs",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600",
       "availableSizes": [
         "Single",
         "Box of 4"
@@ -108,7 +108,7 @@
       "description": "Soft chocolate cakes with creamy marshmallow filling",
       "basePrice": 3.99,
       "category": "cookies",
-      "image": "https://placehold.co/600x400/3E2723/FFF?text=Whoopie+Pies",
+      "image": "https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?w=600",
       "availableSizes": [
         "Single",
         "4-Pack"
@@ -132,7 +132,7 @@
       "description": "Rich fudge brownies topped with peanut butter cups",
       "basePrice": 4.49,
       "category": "brownies",
-      "image": "https://placehold.co/600x400/3E2723/FFF?text=PB+Brownies",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600",
       "availableSizes": [
         "Single",
         "4-Pack",
@@ -159,7 +159,7 @@
       "description": "Game day cupcakes decorated in Seahawks colors with team spirit",
       "basePrice": 4.99,
       "category": "cupcakes",
-      "image": "https://placehold.co/600x400/002244/69BE28?text=Seahawks",
+      "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=600",
       "availableSizes": [
         "Single",
         "4-Pack",
@@ -186,7 +186,7 @@
       "description": "Whimsical cupcakes with ocean-themed decorations and shimmering scales",
       "basePrice": 5.49,
       "category": "cupcakes",
-      "image": "https://placehold.co/600x400/40E0D0/FFF?text=Mermaid",
+      "image": "https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=600",
       "availableSizes": [
         "Single",
         "4-Pack",
@@ -212,7 +212,7 @@
       "description": "Beautiful buttercream flower-topped cupcakes, perfect for special occasions",
       "basePrice": 5.49,
       "category": "cupcakes",
-      "image": "https://placehold.co/600x400/FFB6C1/FFF?text=Flower+Cupcakes",
+      "image": "https://images.unsplash.com/photo-1587668178277-295251f900ce?w=600",
       "availableSizes": [
         "Single",
         "4-Pack",
@@ -238,7 +238,7 @@
       "description": "Classic double-crust apple pie with Washington apples and cinnamon",
       "basePrice": 24.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/8B4513/FFF?text=Apple+Pie",
+      "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -262,7 +262,7 @@
       "description": "Apple pie with a crumbly streusel topping instead of traditional crust",
       "basePrice": 26.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/A0522D/FFF?text=French+Apple",
+      "image": "https://images.unsplash.com/photo-1621955511667-e2c316e4575d?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -285,7 +285,7 @@
       "description": "Sweet and tart pie filled with local Pacific Northwest blueberries",
       "basePrice": 26.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/4169E1/FFF?text=Blueberry+Pie",
+      "image": "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -308,7 +308,7 @@
       "description": "Tangy-sweet pie with locally foraged blackberries",
       "basePrice": 26.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/2F1B8D/FFF?text=Blackberry+Pie",
+      "image": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -332,7 +332,7 @@
       "description": "Classic lattice-topped cherry pie with sweet and tart cherries",
       "basePrice": 28.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/DC143C/FFF?text=Cherry+Pie",
+      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -355,7 +355,7 @@
       "description": "Delicate pie filled with fresh raspberries and a hint of lemon",
       "basePrice": 28.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/E30B5C/FFF?text=Raspberry+Pie",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -379,7 +379,7 @@
       "description": "Fresh strawberry pie with glazed berries (seasonal - summer only)",
       "basePrice": 29.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/FC5A8D/FFF?text=Strawberry+Pie",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -408,7 +408,7 @@
       "description": "Sweet summer peach pie with perfectly spiced filling",
       "basePrice": 27.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/FFDAB9/333?text=Peach+Pie",
+      "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -437,7 +437,7 @@
       "description": "Traditional pumpkin pie with warm spices, perfect for fall",
       "basePrice": 22.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/FF7518/FFF?text=Pumpkin+Pie",
+      "image": "https://images.unsplash.com/photo-1567459045800-4d77c81fc3f5?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -469,7 +469,7 @@
       "description": "Rich, sweet pie with toasted pecans and bourbon-infused filling",
       "basePrice": 32.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/8B4513/FFF?text=Pecan+Pie",
+      "image": "https://images.unsplash.com/photo-1605333396915-47ed6b68a00e?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -494,7 +494,7 @@
       "description": "The best of both worlds - creamy pumpkin topped with candied pecans",
       "basePrice": 34.99,
       "category": "pastries",
-      "image": "https://placehold.co/600x400/D2691E/FFF?text=Pumpkin+Pecan",
+      "image": "https://images.unsplash.com/photo-1607013407627-6ee814329547?w=600",
       "availableSizes": [
         "9 inch",
         "6 inch Mini"
@@ -525,7 +525,7 @@
       "description": "Personalized cake with smooth buttercream frosting and custom decorations",
       "basePrice": 55,
       "category": "custom-cakes",
-      "image": "https://placehold.co/600x400/FFB6C1/333?text=Custom+Cake",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
       "availableSizes": [
         "6 inch",
         "8 inch",
@@ -568,7 +568,7 @@
       "description": "Elegant fondant-covered cake with intricate designs and decorations",
       "basePrice": 85,
       "category": "custom-cakes",
-      "image": "https://placehold.co/600x400/E6E6FA/333?text=Fondant+Cake",
+      "image": "https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?w=600",
       "availableSizes": [
         "6 inch",
         "8 inch",
@@ -612,7 +612,7 @@
       "description": "Elegant multi-tier wedding cake with custom design and flavors",
       "basePrice": 350,
       "category": "custom-cakes",
-      "image": "https://placehold.co/600x400/FFFFFF/C0C0C0?text=Wedding+Cake",
+      "image": "https://images.unsplash.com/photo-1565661834013-d196ca46e14e?w=600",
       "availableSizes": [
         "2 Tier",
         "3 Tier",
@@ -648,7 +648,7 @@
       "description": "Festive birthday cake with your choice of flavor and decorations",
       "basePrice": 45,
       "category": "custom-cakes",
-      "image": "https://placehold.co/600x400/FF69B4/FFF?text=Birthday+Cake",
+      "image": "https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=600",
       "availableSizes": [
         "6 inch",
         "8 inch",
@@ -689,7 +689,7 @@
       "description": "Decorated sugar cookies for holidays and special occasions",
       "basePrice": 3.99,
       "category": "cookies",
-      "image": "https://placehold.co/600x400/FFA500/FFF?text=Sugar+Cookies",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600",
       "availableSizes": [
         "Single",
         "Half Dozen",
@@ -716,49 +716,49 @@
       "_id": "cat1",
       "name": "Custom Cakes",
       "description": "Made-to-order cakes for all occasions",
-      "image": "https://placehold.co/400x300/FFB6C1/333?text=Custom+Cakes",
+      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=400",
       "count": 4
     },
     {
       "_id": "cat2",
       "name": "Pies",
       "description": "Homemade pies with seasonal fruits",
-      "image": "https://placehold.co/400x300/8B4513/FFF?text=Pies",
+      "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=400",
       "count": 11
     },
     {
       "_id": "cat3",
       "name": "Pastries",
       "description": "Fresh-baked pastries and sweet treats",
-      "image": "https://placehold.co/400x300/D2691E/FFF?text=Pastries",
+      "image": "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=400",
       "count": 2
     },
     {
       "_id": "cat4",
       "name": "Cookies",
       "description": "Homemade cookies and sweet treats",
-      "image": "https://placehold.co/400x300/654321/FFF?text=Cookies",
+      "image": "https://images.unsplash.com/photo-1558962021-71c0b3a1b4d7?w=400",
       "count": 4
     },
     {
       "_id": "cat5",
       "name": "Cupcakes",
       "description": "Decorated cupcakes for any occasion",
-      "image": "https://placehold.co/400x300/FF69B4/FFF?text=Cupcakes",
+      "image": "https://images.unsplash.com/photo-1519869325930-281384150729?w=400",
       "count": 3
     },
     {
       "_id": "cat6",
       "name": "Muffins",
       "description": "Fresh-baked jumbo muffins",
-      "image": "https://placehold.co/400x300/4169E1/FFF?text=Muffins",
+      "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=400",
       "count": 1
     },
     {
       "_id": "cat7",
       "name": "Brownies",
       "description": "Rich, fudgy brownies",
-      "image": "https://placehold.co/400x300/3E2723/FFF?text=Brownies",
+      "image": "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=400",
       "count": 1
     }
   ]
