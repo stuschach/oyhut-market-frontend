@@ -1,0 +1,61 @@
+{
+  "categories": [
+    {
+      "_id": "cat1",
+      "name": "Produce",
+      "description": "Fresh fruits and vegetables",
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=400",
+      "subcategories": ["Fruits", "Vegetables", "Berries", "Herbs"]
+    },
+    {
+      "_id": "cat2",
+      "name": "Seafood",
+      "description": "Fresh catches from the Pacific Northwest",
+      "image": "https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?w=400",
+      "subcategories": ["Fish", "Shellfish", "Smoked Fish"]
+    },
+    {
+      "_id": "cat3",
+      "name": "Bakery",
+      "description": "Fresh baked goods made daily",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400",
+      "subcategories": ["Bread", "Pastries", "Cakes", "Cookies"]
+    },
+    {
+      "_id": "cat4",
+      "name": "Meat",
+      "description": "Premium cuts from local farms",
+      "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400",
+      "subcategories": ["Beef", "Pork", "Poultry", "Lamb"]
+    },
+    {
+      "_id": "cat5",
+      "name": "Dairy & Eggs",
+      "description": "Farm fresh dairy products",
+      "image": "https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=400",
+      "subcategories": ["Milk", "Cheese", "Yogurt", "Eggs", "Butter"]
+    },
+    {
+      "_id": "cat6",
+      "name": "Pantry",
+      "description": "Everyday essentials",
+      "image": "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?w=400",
+      "subcategories": ["Grains", "Pasta", "Oils", "Sweeteners", "Spices"]
+    },
+    {
+      "_id": "cat7",
+      "name": "Beer & Wine",
+      "description": "Local and imported selections",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400",
+      "subcategories": ["Beer", "Wine", "Spirits"],
+      "ageRestricted": true
+    },
+    {
+      "_id": "cat8",
+      "name": "Deli",
+      "description": "Ready-to-eat selections",
+      "image": "https://images.unsplash.com/photo-1541967090-298e5a3d8dc8?w=400",
+      "subcategories": ["Sandwiches", "Salads", "Hot Foods", "Sides"]
+    }
+  ]
+}

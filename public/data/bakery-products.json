@@ -1,0 +1,765 @@
+{
+  "products": [
+    {
+      "_id": "b1",
+      "name": "Cinnamon Rolls",
+      "description": "Fresh-baked cinnamon rolls with cream cheese frosting, made from scratch daily",
+      "basePrice": 4.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1609126979532-0e58c092d56a?w=600",
+      "availableSizes": [
+        "Single",
+        "Half Dozen",
+        "Dozen"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "Half Dozen": 5.5,
+        "Dozen": 10
+      },
+      "customizable": false,
+      "requiresPreorder": false,
+      "featured": true,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b2",
+      "name": "Blueberry Muffins",
+      "description": "Jumbo blueberry muffins bursting with fresh Pacific Northwest blueberries",
+      "basePrice": 3.99,
+      "category": "muffins",
+      "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=600",
+      "availableSizes": [
+        "Single",
+        "4-Pack",
+        "Dozen"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "4-Pack": 3.5,
+        "Dozen": 10
+      },
+      "customizable": false,
+      "requiresPreorder": false,
+      "featured": true,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b3",
+      "name": "Triple Chocolate Chip Cookies",
+      "description": "Decadent cookies with dark, milk, and white chocolate chips",
+      "basePrice": 2.99,
+      "category": "cookies",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600",
+      "availableSizes": [
+        "Single",
+        "Half Dozen",
+        "Dozen"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "Half Dozen": 5,
+        "Dozen": 9
+      },
+      "customizable": false,
+      "requiresPreorder": false,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs",
+        "chocolate"
+      ]
+    },
+    {
+      "_id": "b4",
+      "name": "Eclairs",
+      "description": "Classic French pastries filled with vanilla custard and topped with chocolate glaze",
+      "basePrice": 5.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600",
+      "availableSizes": [
+        "Single",
+        "Box of 4"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "Box of 4": 3.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b5",
+      "name": "Whoopie Pies",
+      "description": "Soft chocolate cakes with creamy marshmallow filling",
+      "basePrice": 3.99,
+      "category": "cookies",
+      "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600",
+      "availableSizes": [
+        "Single",
+        "4-Pack"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "4-Pack": 3.5
+      },
+      "customizable": false,
+      "requiresPreorder": false,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs",
+        "chocolate"
+      ]
+    },
+    {
+      "_id": "b6",
+      "name": "Peanut Butter Cup Brownies",
+      "description": "Rich fudge brownies topped with peanut butter cups",
+      "basePrice": 4.49,
+      "category": "brownies",
+      "image": "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=600",
+      "availableSizes": [
+        "Single",
+        "4-Pack",
+        "9-Pack"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "4-Pack": 3.5,
+        "9-Pack": 7.5
+      },
+      "customizable": false,
+      "requiresPreorder": false,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs",
+        "chocolate",
+        "peanuts"
+      ]
+    },
+    {
+      "_id": "b7",
+      "name": "Seahawks Cupcakes",
+      "description": "Game day cupcakes decorated in Seahawks colors with team spirit",
+      "basePrice": 4.99,
+      "category": "cupcakes",
+      "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600",
+      "availableSizes": [
+        "Single",
+        "4-Pack",
+        "Dozen"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "4-Pack": 3.5,
+        "Dozen": 10
+      },
+      "customizable": true,
+      "requiresPreorder": true,
+      "minPreorderDays": 2,
+      "seasonal": true,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b8",
+      "name": "Mermaid Cupcakes",
+      "description": "Whimsical cupcakes with ocean-themed decorations and shimmering scales",
+      "basePrice": 5.49,
+      "category": "cupcakes",
+      "image": "https://images.unsplash.com/photo-1519869325930-281384150729?w=600",
+      "availableSizes": [
+        "Single",
+        "4-Pack",
+        "Dozen"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "4-Pack": 3.5,
+        "Dozen": 10
+      },
+      "customizable": true,
+      "requiresPreorder": true,
+      "minPreorderDays": 2,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b9",
+      "name": "Flower Cupcakes",
+      "description": "Beautiful buttercream flower-topped cupcakes, perfect for special occasions",
+      "basePrice": 5.49,
+      "category": "cupcakes",
+      "image": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?w=600",
+      "availableSizes": [
+        "Single",
+        "4-Pack",
+        "Dozen"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "4-Pack": 3.5,
+        "Dozen": 10
+      },
+      "customizable": true,
+      "requiresPreorder": true,
+      "minPreorderDays": 2,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b10",
+      "name": "Apple Pie",
+      "description": "Classic double-crust apple pie with Washington apples and cinnamon",
+      "basePrice": 24.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "featured": true,
+      "allergens": [
+        "gluten",
+        "dairy"
+      ]
+    },
+    {
+      "_id": "b11",
+      "name": "French Apple Pie",
+      "description": "Apple pie with a crumbly streusel topping instead of traditional crust",
+      "basePrice": 26.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "allergens": [
+        "gluten",
+        "dairy"
+      ]
+    },
+    {
+      "_id": "b12",
+      "name": "Blueberry Pie",
+      "description": "Sweet and tart pie filled with local Pacific Northwest blueberries",
+      "basePrice": 26.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "allergens": [
+        "gluten",
+        "dairy"
+      ]
+    },
+    {
+      "_id": "b13",
+      "name": "Blackberry Pie",
+      "description": "Tangy-sweet pie with locally foraged blackberries",
+      "basePrice": 26.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1572383672419-ab35444a6934?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "seasonal": true,
+      "allergens": [
+        "gluten",
+        "dairy"
+      ]
+    },
+    {
+      "_id": "b14",
+      "name": "Cherry Pie",
+      "description": "Classic lattice-topped cherry pie with sweet and tart cherries",
+      "basePrice": 28.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1562007908-17c67e878c88?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "allergens": [
+        "gluten",
+        "dairy"
+      ]
+    },
+    {
+      "_id": "b15",
+      "name": "Raspberry Pie",
+      "description": "Delicate pie filled with fresh raspberries and a hint of lemon",
+      "basePrice": 28.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "seasonal": true,
+      "allergens": [
+        "gluten",
+        "dairy"
+      ]
+    },
+    {
+      "_id": "b16",
+      "name": "Strawberry Pie",
+      "description": "Fresh strawberry pie with glazed berries (seasonal - summer only)",
+      "basePrice": 29.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "seasonal": true,
+      "seasonalMonths": [
+        "June",
+        "July",
+        "August"
+      ],
+      "allergens": [
+        "gluten",
+        "dairy"
+      ]
+    },
+    {
+      "_id": "b17",
+      "name": "Peach Pie",
+      "description": "Sweet summer peach pie with perfectly spiced filling",
+      "basePrice": 27.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1574085733277-851d9d856a3a?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "seasonal": true,
+      "seasonalMonths": [
+        "July",
+        "August",
+        "September"
+      ],
+      "allergens": [
+        "gluten",
+        "dairy"
+      ]
+    },
+    {
+      "_id": "b18",
+      "name": "Pumpkin Pie",
+      "description": "Traditional pumpkin pie with warm spices, perfect for fall",
+      "basePrice": 22.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1567459045800-4d77c81fc3f5?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "seasonal": true,
+      "seasonalMonths": [
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
+      "featured": true,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b19",
+      "name": "Pecan Pie",
+      "description": "Rich, sweet pie with toasted pecans and bourbon-infused filling",
+      "basePrice": 32.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1604183653924-6ae110de27c9?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 1,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs",
+        "tree nuts"
+      ]
+    },
+    {
+      "_id": "b20",
+      "name": "Pumpkin Pecan Pie",
+      "description": "The best of both worlds - creamy pumpkin topped with candied pecans",
+      "basePrice": 34.99,
+      "category": "pastries",
+      "image": "https://images.unsplash.com/photo-1618140052121-39fc6db33972?w=600",
+      "availableSizes": [
+        "9 inch",
+        "6 inch Mini"
+      ],
+      "sizeMultipliers": {
+        "9 inch": 1,
+        "6 inch Mini": 0.5
+      },
+      "customizable": false,
+      "requiresPreorder": true,
+      "minPreorderDays": 2,
+      "seasonal": true,
+      "seasonalMonths": [
+        "October",
+        "November",
+        "December"
+      ],
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs",
+        "tree nuts"
+      ]
+    },
+    {
+      "_id": "b21",
+      "name": "Custom Buttercream Cake",
+      "description": "Personalized cake with smooth buttercream frosting and custom decorations",
+      "basePrice": 55,
+      "category": "custom-cakes",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
+      "availableSizes": [
+        "6 inch",
+        "8 inch",
+        "10 inch",
+        "12 inch",
+        "Sheet Cake"
+      ],
+      "sizeMultipliers": {
+        "6 inch": 0.8,
+        "8 inch": 1,
+        "10 inch": 1.5,
+        "12 inch": 2,
+        "Sheet Cake": 2.5
+      },
+      "availableFlavors": [
+        "Vanilla",
+        "Chocolate",
+        "Red Velvet",
+        "Lemon",
+        "Carrot",
+        "Funfetti"
+      ],
+      "customizable": true,
+      "requiresPreorder": true,
+      "minPreorderDays": 3,
+      "customOptions": [
+        "message",
+        "color",
+        "theme"
+      ],
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b22",
+      "name": "Custom Fondant Cake",
+      "description": "Elegant fondant-covered cake with intricate designs and decorations",
+      "basePrice": 85,
+      "category": "custom-cakes",
+      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=600",
+      "availableSizes": [
+        "6 inch",
+        "8 inch",
+        "10 inch",
+        "12 inch",
+        "Multi-Tier"
+      ],
+      "sizeMultipliers": {
+        "6 inch": 0.8,
+        "8 inch": 1,
+        "10 inch": 1.5,
+        "12 inch": 2,
+        "Multi-Tier": 3
+      },
+      "availableFlavors": [
+        "Vanilla",
+        "Chocolate",
+        "Red Velvet",
+        "Lemon",
+        "Almond",
+        "Marble"
+      ],
+      "customizable": true,
+      "requiresPreorder": true,
+      "minPreorderDays": 5,
+      "customOptions": [
+        "design",
+        "figurines",
+        "flowers",
+        "theme"
+      ],
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b23",
+      "name": "Wedding Cake",
+      "description": "Elegant multi-tier wedding cake with custom design and flavors",
+      "basePrice": 350,
+      "category": "custom-cakes",
+      "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600",
+      "availableSizes": [
+        "2 Tier",
+        "3 Tier",
+        "4 Tier",
+        "5 Tier"
+      ],
+      "sizeMultipliers": {
+        "2 Tier": 1,
+        "3 Tier": 1.5,
+        "4 Tier": 2,
+        "5 Tier": 2.5
+      },
+      "availableFlavors": [
+        "Classic White",
+        "Chocolate",
+        "Lemon",
+        "Red Velvet",
+        "Almond"
+      ],
+      "customizable": true,
+      "requiresPreorder": true,
+      "minPreorderDays": 14,
+      "requiresConsultation": true,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b24",
+      "name": "Birthday Cake",
+      "description": "Festive birthday cake with your choice of flavor and decorations",
+      "basePrice": 45,
+      "category": "custom-cakes",
+      "image": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600",
+      "availableSizes": [
+        "6 inch",
+        "8 inch",
+        "10 inch",
+        "12 inch"
+      ],
+      "sizeMultipliers": {
+        "6 inch": 0.8,
+        "8 inch": 1,
+        "10 inch": 1.5,
+        "12 inch": 2
+      },
+      "availableFlavors": [
+        "Chocolate",
+        "Vanilla",
+        "Funfetti",
+        "Red Velvet",
+        "Strawberry"
+      ],
+      "customizable": true,
+      "requiresPreorder": true,
+      "minPreorderDays": 2,
+      "customOptions": [
+        "name",
+        "age",
+        "message",
+        "theme"
+      ],
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    },
+    {
+      "_id": "b25",
+      "name": "Seasonal Sugar Cookies",
+      "description": "Decorated sugar cookies for holidays and special occasions",
+      "basePrice": 3.99,
+      "category": "cookies",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600",
+      "availableSizes": [
+        "Single",
+        "Half Dozen",
+        "Dozen"
+      ],
+      "sizeMultipliers": {
+        "Single": 1,
+        "Half Dozen": 5,
+        "Dozen": 9
+      },
+      "customizable": true,
+      "requiresPreorder": true,
+      "minPreorderDays": 2,
+      "seasonal": true,
+      "allergens": [
+        "gluten",
+        "dairy",
+        "eggs"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "_id": "cat1",
+      "name": "Custom Cakes",
+      "description": "Made-to-order cakes for all occasions",
+      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=400",
+      "count": 4
+    },
+    {
+      "_id": "cat2",
+      "name": "Pies",
+      "description": "Homemade pies with seasonal fruits",
+      "image": "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=400",
+      "count": 11
+    },
+    {
+      "_id": "cat3",
+      "name": "Pastries",
+      "description": "Fresh-baked pastries and sweet treats",
+      "image": "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=400",
+      "count": 2
+    },
+    {
+      "_id": "cat4",
+      "name": "Cookies",
+      "description": "Homemade cookies and sweet treats",
+      "image": "https://images.unsplash.com/photo-1558962021-71c0b3a1b4d7?w=400",
+      "count": 4
+    },
+    {
+      "_id": "cat5",
+      "name": "Cupcakes",
+      "description": "Decorated cupcakes for any occasion",
+      "image": "https://images.unsplash.com/photo-1519869325930-281384150729?w=400",
+      "count": 3
+    },
+    {
+      "_id": "cat6",
+      "name": "Muffins",
+      "description": "Fresh-baked jumbo muffins",
+      "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=400",
+      "count": 1
+    },
+    {
+      "_id": "cat7",
+      "name": "Brownies",
+      "description": "Rich, fudgy brownies",
+      "image": "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=400",
+      "count": 1
+    }
+  ]
+}
