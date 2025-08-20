@@ -8,6 +8,7 @@ import Footer from './components/layout/Footer';
 import CartDrawer from './components/cart/CartDrawer';
 import BakeryCartDrawer from './components/bakery/BakeryCartDrawer';
 import PrivateRoute from './components/auth/PrivateRoute';
+import PasswordProtect from './components/PasswordProtect';
 
 import HomePage from './pages/HomePage';
 import ProductsPage from './pages/ProductsPage';
@@ -49,7 +50,10 @@ function App() {
     }
   }, [dispatch, isAuthenticated, backendAvailable]);
 
-  return (
+  // Comment out this line to disable password protection
+  const enablePasswordProtection = true;
+
+  const appContent = (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Header />
       <Box component="main" sx={{ flexGrow: 1 }}>
@@ -86,6 +90,12 @@ function App() {
       <CartDrawer />
       <BakeryCartDrawer />
     </Box>
+  );
+
+  return enablePasswordProtection ? (
+    <PasswordProtect>{appContent}</PasswordProtect>
+  ) : (
+    appContent
   );
 }
 
